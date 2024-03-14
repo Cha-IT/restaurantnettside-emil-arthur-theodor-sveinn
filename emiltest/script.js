@@ -1,15 +1,3 @@
-// const Http1 = new XMLHttpRequest();
-// const allcaturl='https://www.themealdb.com/api/json/v1/1/categories.php';
-// 
-// Http1.open("GET", allcaturl);
-// Http1.send();
-// Http1.onreadystatechange = function() {
-//     if (Http1.readyState == XMLHttpRequest.DONE) {
-//         const obj = JSON.parse(Http1.responseText);
-//         console.log(obj);
-//     }
-// }
-
 const catlist = ["Starter", "Side", "Breakfast", "Dessert", "Vegetarian"]
 var category = catlist[Math.floor(Math.random() * catlist.length)]
 console.log(category);
