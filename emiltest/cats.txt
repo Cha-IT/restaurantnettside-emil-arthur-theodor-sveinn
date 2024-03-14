@@ -1,0 +1,1 @@
+"Starter", "Side", "Breakfast", "Vegetarian", "Dessert", "Miscellaneous"
