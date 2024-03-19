@@ -38,7 +38,6 @@ function show_list(dropDown) {
 
 function addToDropdown(dropDown, mealType) {
   for (var i = 0; i < mealType.length; i++) {
-    console.log(mealType[i]);
     let meal = document.createElement("div");
     meal.id = dropDown.id + i;
     document.getElementById(dropDown.id).appendChild(meal);
