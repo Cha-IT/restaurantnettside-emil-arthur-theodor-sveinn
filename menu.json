@@ -1,0 +1,173 @@
+{
+  "starters": [
+    {
+      "strMeal": "Broccoli & Stilton soup",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tvvxpv1511191952.jpg",
+      "idMeal": "52842",
+      "mealPrice": 199,
+      "mealDescription": "dette er et suppe",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Clam chowder",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/rvtvuw1511190488.jpg",
+      "idMeal": "52840",
+      "mealPrice": 199,
+      "mealDescription": "dette er et suppe",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Cream Cheese Tart",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wurrux1468416624.jpg",
+      "idMeal": "52779",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Tart",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Creamy Tomato Soup",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/stpuws1511191310.jpg",
+      "idMeal": "52841",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Tart",
+      "mealAllergies": "det har ting i det"
+    }
+  ],
+
+  "sides": [
+    {
+      "strMeal": "Blini Pancakes",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/0206h11699013358.jpg",
+      "idMeal": "53080",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Pancake",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Boulangère Potatoes",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/qywups1511796761.jpg",
+      "idMeal": "52914",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Potato",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Brie wrapped in prosciutto & brioche",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg",
+      "idMeal": "52913",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Brie",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Burek",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+      "idMeal": "53060",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Burek",
+      "mealAllergies": "det har ting i det"
+    }
+  ],
+  "breakfast": [
+    {
+      "strMeal": "Bread omelette",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/hqaejl1695738653.jpg",
+      "idMeal": "53076",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Omelette",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Breakfast Potatoes",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/1550441882.jpg",
+      "idMeal": "52965",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Potatoe",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "English Breakfast",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg",
+      "idMeal": "52895",
+      "mealPrice": 199,
+      "mealDescription": "dette er et English",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Fruit and Cream Cheese Breakfast Pastries",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/1543774956.jpg",
+      "idMeal": "52957",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Pastries",
+      "mealAllergies": "det har ting i det"
+    }
+  ],
+  "dessert": [
+    {
+      "strMeal": "Apam balik",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/adxcbq1619787919.jpg",
+      "idMeal": "53049",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Apam",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Apple & Blackberry Crumble",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "idMeal": "52893",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Crumble",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Apple Frangipan Tart",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg",
+      "idMeal": "52768",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Tart",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Bakewell tart",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/wyrqqq1468233628.jpg",
+      "idMeal": "52767",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Tart",
+      "mealAllergies": "det har ting i det"
+    }
+  ],
+  "vegitarian": [
+    {
+      "strMeal": "Baingan Bharta",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/urtpqw1487341253.jpg",
+      "idMeal": "52807",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Bharta",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Beetroot Soup (Borscht)",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/zadvgb1699012544.jpg",
+      "idMeal": "53078",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Soup",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Cabbage Soup (Shchi)",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/60oc3k1699009846.jpg",
+      "idMeal": "53077",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Soup",
+      "mealAllergies": "det har ting i det"
+    },
+    {
+      "strMeal": "Chickpea Fajitas",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tvtxpq1511464705.jpg",
+      "idMeal": "52870",
+      "mealPrice": 199,
+      "mealDescription": "dette er et Fajitas",
+      "mealAllergies": "det har ting i det"
+    }
+  ]
+}
