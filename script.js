@@ -14,7 +14,6 @@ var vegitarian = document.querySelector("#vegitarian-dropDown");
 starterBtn.onclick = () => {
   show_list(starter);
 };
-
 sideBtn.onclick = () => {
   show_list(side);
 };
@@ -29,42 +28,49 @@ vegitarianBtn.onclick = () => {
 };
 
 function show_list(dropDown) {
-  if (dropDown.style.display == "block") {
+  if (dropDown.style.display == "flex") {
     dropDown.style.display = "none";
   } else {
-    dropDown.style.display = "block";
+    dropDown.style.display = "flex";
   }
 }
 
 function addToDropdown(dropDown, mealType) {
   for (var i = 0; i < mealType.length; i++) {
-    console.log(mealType[i]);
+    let list = document.createElement("li");
+    document.getElementById(dropDown.id).appendChild(list);
+
     let meal = document.createElement("div");
     meal.id = dropDown.id + i;
-    document.getElementById(dropDown.id).appendChild(meal);
+    meal.className = "mealClass";
+    list.appendChild(meal);
 
-    document.getElementById(dropDown.id + i).style.border =
-      "thick solid #0000FF";
+    let mealInner = document.getElementById(dropDown.id + i);
+
+    //mealInner.style.backgroundColor = "#f5f5dc";
 
     let name = document.createElement("div");
     name.innerHTML = mealType[i].strMeal;
-    document.getElementById(dropDown.id + i).appendChild(name);
+    mealInner.appendChild(name);
 
     let image = document.createElement("div");
-    image.innerHTML = mealType[i].strMealThumb;
-    document.getElementById(dropDown.id + i).appendChild(image);
+    mealInner.appendChild(image);
+    let imageInner = document.createElement("img");
+    imageInner.className = "img";
+    imageInner.src = mealType[i].strMealThumb;
+    image.appendChild(imageInner);
 
     let price = document.createElement("div");
     price.innerHTML = mealType[i].mealPrice;
-    document.getElementById(dropDown.id + i).appendChild(price);
+    mealInner.appendChild(price);
 
     let description = document.createElement("div");
     description.innerHTML = mealType[i].mealDescription;
-    document.getElementById(dropDown.id + i).appendChild(description);
+    mealInner.appendChild(description);
 
     let allergies = document.createElement("div");
     allergies.innerHTML = mealType[i].mealAllergies;
-    document.getElementById(dropDown.id + i).appendChild(allergies);
+    mealInner.appendChild(allergies);
   }
 }
 
